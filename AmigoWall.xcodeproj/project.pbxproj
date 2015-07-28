@@ -1,0 +1,455 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		33D441691B67CDC300FC406C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 33D441681B67CDC300FC406C /* main.m */; };
+		33D4416C1B67CDC300FC406C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 33D4416B1B67CDC300FC406C /* AppDelegate.m */; };
+		33D4416F1B67CDC300FC406C /* HuoDongYouController.m in Sources */ = {isa = PBXBuildFile; fileRef = 33D4416E1B67CDC300FC406C /* HuoDongYouController.m */; };
+		33D441721B67CDC300FC406C /* ContactViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 33D441711B67CDC300FC406C /* ContactViewController.m */; };
+		33D441751B67CDC300FC406C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 33D441731B67CDC300FC406C /* Main.storyboard */; };
+		33D441771B67CDC300FC406C /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 33D441761B67CDC300FC406C /* Images.xcassets */; };
+		33D4417A1B67CDC300FC406C /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 33D441781B67CDC300FC406C /* LaunchScreen.xib */; };
+		33D441861B67CDC300FC406C /* AmigoWallTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 33D441851B67CDC300FC406C /* AmigoWallTests.m */; };
+		33D441931B67D4A500FC406C /* FindViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 33D441921B67D4A500FC406C /* FindViewController.m */; };
+		33D441961B67D4C900FC406C /* MeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 33D441951B67D4C900FC406C /* MeViewController.m */; };
+		33D4419A1B67D7EF00FC406C /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 33D441991B67D7EE00FC406C /* icon.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		33D441801B67CDC300FC406C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 33D4415B1B67CDC300FC406C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 33D441621B67CDC300FC406C;
+			remoteInfo = AmigoWall;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		33D441631B67CDC300FC406C /* AmigoWall.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AmigoWall.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		33D441671B67CDC300FC406C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		33D441681B67CDC300FC406C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		33D4416A1B67CDC300FC406C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		33D4416B1B67CDC300FC406C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		33D4416D1B67CDC300FC406C /* HuoDongYouController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HuoDongYouController.h; sourceTree = "<group>"; };
+		33D4416E1B67CDC300FC406C /* HuoDongYouController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HuoDongYouController.m; sourceTree = "<group>"; };
+		33D441701B67CDC300FC406C /* ContactViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ContactViewController.h; sourceTree = "<group>"; };
+		33D441711B67CDC300FC406C /* ContactViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ContactViewController.m; sourceTree = "<group>"; };
+		33D441741B67CDC300FC406C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		33D441761B67CDC300FC406C /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		33D441791B67CDC300FC406C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		33D4417F1B67CDC300FC406C /* AmigoWallTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AmigoWallTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		33D441841B67CDC300FC406C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		33D441851B67CDC300FC406C /* AmigoWallTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AmigoWallTests.m; sourceTree = "<group>"; };
+		33D441911B67D4A500FC406C /* FindViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FindViewController.h; sourceTree = "<group>"; };
+		33D441921B67D4A500FC406C /* FindViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FindViewController.m; sourceTree = "<group>"; };
+		33D441941B67D4C900FC406C /* MeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MeViewController.h; sourceTree = "<group>"; };
+		33D441951B67D4C900FC406C /* MeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MeViewController.m; sourceTree = "<group>"; };
+		33D441991B67D7EE00FC406C /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		33D441601B67CDC300FC406C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		33D4417C1B67CDC300FC406C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		33D4415A1B67CDC300FC406C = {
+			isa = PBXGroup;
+			children = (
+				33D441651B67CDC300FC406C /* AmigoWall */,
+				33D441821B67CDC300FC406C /* AmigoWallTests */,
+				33D441641B67CDC300FC406C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		33D441641B67CDC300FC406C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				33D441631B67CDC300FC406C /* AmigoWall.app */,
+				33D4417F1B67CDC300FC406C /* AmigoWallTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		33D441651B67CDC300FC406C /* AmigoWall */ = {
+			isa = PBXGroup;
+			children = (
+				33D4416A1B67CDC300FC406C /* AppDelegate.h */,
+				33D4416B1B67CDC300FC406C /* AppDelegate.m */,
+				33D4416D1B67CDC300FC406C /* HuoDongYouController.h */,
+				33D4416E1B67CDC300FC406C /* HuoDongYouController.m */,
+				33D441701B67CDC300FC406C /* ContactViewController.h */,
+				33D441711B67CDC300FC406C /* ContactViewController.m */,
+				33D441731B67CDC300FC406C /* Main.storyboard */,
+				33D441761B67CDC300FC406C /* Images.xcassets */,
+				33D441781B67CDC300FC406C /* LaunchScreen.xib */,
+				33D441661B67CDC300FC406C /* Supporting Files */,
+				33D441911B67D4A500FC406C /* FindViewController.h */,
+				33D441921B67D4A500FC406C /* FindViewController.m */,
+				33D441941B67D4C900FC406C /* MeViewController.h */,
+				33D441951B67D4C900FC406C /* MeViewController.m */,
+			);
+			path = AmigoWall;
+			sourceTree = "<group>";
+		};
+		33D441661B67CDC300FC406C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				33D441991B67D7EE00FC406C /* icon.png */,
+				33D441671B67CDC300FC406C /* Info.plist */,
+				33D441681B67CDC300FC406C /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		33D441821B67CDC300FC406C /* AmigoWallTests */ = {
+			isa = PBXGroup;
+			children = (
+				33D441851B67CDC300FC406C /* AmigoWallTests.m */,
+				33D441831B67CDC300FC406C /* Supporting Files */,
+			);
+			path = AmigoWallTests;
+			sourceTree = "<group>";
+		};
+		33D441831B67CDC300FC406C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				33D441841B67CDC300FC406C /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		33D441621B67CDC300FC406C /* AmigoWall */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 33D441891B67CDC300FC406C /* Build configuration list for PBXNativeTarget "AmigoWall" */;
+			buildPhases = (
+				33D4415F1B67CDC300FC406C /* Sources */,
+				33D441601B67CDC300FC406C /* Frameworks */,
+				33D441611B67CDC300FC406C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AmigoWall;
+			productName = AmigoWall;
+			productReference = 33D441631B67CDC300FC406C /* AmigoWall.app */;
+			productType = "com.apple.product-type.application";
+		};
+		33D4417E1B67CDC300FC406C /* AmigoWallTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 33D4418C1B67CDC300FC406C /* Build configuration list for PBXNativeTarget "AmigoWallTests" */;
+			buildPhases = (
+				33D4417B1B67CDC300FC406C /* Sources */,
+				33D4417C1B67CDC300FC406C /* Frameworks */,
+				33D4417D1B67CDC300FC406C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				33D441811B67CDC300FC406C /* PBXTargetDependency */,
+			);
+			name = AmigoWallTests;
+			productName = AmigoWallTests;
+			productReference = 33D4417F1B67CDC300FC406C /* AmigoWallTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		33D4415B1B67CDC300FC406C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0640;
+				ORGANIZATIONNAME = Jacky;
+				TargetAttributes = {
+					33D441621B67CDC300FC406C = {
+						CreatedOnToolsVersion = 6.4;
+					};
+					33D4417E1B67CDC300FC406C = {
+						CreatedOnToolsVersion = 6.4;
+						TestTargetID = 33D441621B67CDC300FC406C;
+					};
+				};
+			};
+			buildConfigurationList = 33D4415E1B67CDC300FC406C /* Build configuration list for PBXProject "AmigoWall" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 33D4415A1B67CDC300FC406C;
+			productRefGroup = 33D441641B67CDC300FC406C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				33D441621B67CDC300FC406C /* AmigoWall */,
+				33D4417E1B67CDC300FC406C /* AmigoWallTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		33D441611B67CDC300FC406C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				33D4419A1B67D7EF00FC406C /* icon.png in Resources */,
+				33D441751B67CDC300FC406C /* Main.storyboard in Resources */,
+				33D4417A1B67CDC300FC406C /* LaunchScreen.xib in Resources */,
+				33D441771B67CDC300FC406C /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		33D4417D1B67CDC300FC406C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		33D4415F1B67CDC300FC406C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				33D441961B67D4C900FC406C /* MeViewController.m in Sources */,
+				33D441721B67CDC300FC406C /* ContactViewController.m in Sources */,
+				33D4416C1B67CDC300FC406C /* AppDelegate.m in Sources */,
+				33D441931B67D4A500FC406C /* FindViewController.m in Sources */,
+				33D4416F1B67CDC300FC406C /* HuoDongYouController.m in Sources */,
+				33D441691B67CDC300FC406C /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		33D4417B1B67CDC300FC406C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				33D441861B67CDC300FC406C /* AmigoWallTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		33D441811B67CDC300FC406C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 33D441621B67CDC300FC406C /* AmigoWall */;
+			targetProxy = 33D441801B67CDC300FC406C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		33D441731B67CDC300FC406C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				33D441741B67CDC300FC406C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		33D441781B67CDC300FC406C /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				33D441791B67CDC300FC406C /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		33D441871B67CDC300FC406C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		33D441881B67CDC300FC406C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		33D4418A1B67CDC300FC406C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = AmigoWall/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		33D4418B1B67CDC300FC406C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = AmigoWall/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		33D4418D1B67CDC300FC406C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = AmigoWallTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AmigoWall.app/AmigoWall";
+			};
+			name = Debug;
+		};
+		33D4418E1B67CDC300FC406C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = AmigoWallTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AmigoWall.app/AmigoWall";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		33D4415E1B67CDC300FC406C /* Build configuration list for PBXProject "AmigoWall" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				33D441871B67CDC300FC406C /* Debug */,
+				33D441881B67CDC300FC406C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		33D441891B67CDC300FC406C /* Build configuration list for PBXNativeTarget "AmigoWall" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				33D4418A1B67CDC300FC406C /* Debug */,
+				33D4418B1B67CDC300FC406C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		33D4418C1B67CDC300FC406C /* Build configuration list for PBXNativeTarget "AmigoWallTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				33D4418D1B67CDC300FC406C /* Debug */,
+				33D4418E1B67CDC300FC406C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 33D4415B1B67CDC300FC406C /* Project object */;
+}
