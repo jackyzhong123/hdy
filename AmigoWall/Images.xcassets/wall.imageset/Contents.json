@@ -3,17 +3,17 @@
     {
       "idiom" : "universal",
       "scale" : "1x",
-      "filename" : "me30.png"
+      "filename" : "brick30.png"
     },
     {
       "idiom" : "universal",
       "scale" : "2x",
-      "filename" : "user60.png"
+      "filename" : "brick60.png"
     },
     {
       "idiom" : "universal",
       "scale" : "3x",
-      "filename" : "user90.png"
+      "filename" : "brick.png"
     }
   ],
   "info" : {

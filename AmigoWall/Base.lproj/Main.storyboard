@@ -38,7 +38,7 @@
                             <constraint firstAttribute="centerY" secondItem="KQZ-1w-vlD" secondAttribute="centerY" id="exm-UA-ej4"/>
                         </constraints>
                     </view>
-                    <tabBarItem key="tabBarItem" title="活动邮" image="huodongyou" id="acW-dT-cKf"/>
+                    <tabBarItem key="tabBarItem" title="活动邮" image="huodongmail" id="acW-dT-cKf"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="W5J-7L-Pyd" sceneMemberID="firstResponder"/>
             </objects>
@@ -57,7 +57,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="文化墙" image="contact" id="3jf-fk-B8S"/>
+                    <tabBarItem key="tabBarItem" title="文化墙" image="wall" id="3jf-fk-B8S"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ZpJ-pR-pCV" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -95,7 +95,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="发现" image="find" id="1xl-CG-mTW"/>
+                    <tabBarItem key="tabBarItem" title="发现" image="search" id="1xl-CG-mTW"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ttT-un-EJe" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -124,9 +124,9 @@
         </scene>
     </scenes>
     <resources>
-        <image name="contact" width="30" height="30"/>
-        <image name="find" width="30" height="30"/>
-        <image name="huodongyou" width="30" height="30"/>
+        <image name="huodongmail" width="30" height="30"/>
         <image name="me" width="30" height="30"/>
+        <image name="search" width="30" height="30"/>
+        <image name="wall" width="30" height="30"/>
     </resources>
 </document>
